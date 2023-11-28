@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário do Site</title>
+    <link rel="stylesheet" href="pag1.css">
+    <script>
+        window.onload = function() {
+            alert("Caso queira entrar em contato conosco para sugerir temas, preencha o formulário!");
+        };
+        function mostrarMensagem() {
+            alert("Mensagem enviada com sucesso!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a></li><a href="formulario.html">Contato</a>   
+        </nav>
+    </header>
+    <h1>Formulário de Contato</h1>
+    <main class="main-formulario">
+    <form method="post" id="formulario" onsubmit="mostrarMensagem()">
+        <div>
+             <label class="form-nome" for="tx-usuario"><b>Seu Nome:</b></label><br>
+             <input type="text" name="usuario" id="tx-usuario" maxlength="100"> 
+        </div><br>
+        <div>
+            <label class="form-email" for="tx-email"><b>Email:</b></label><br>
+            <input type="email" name="email" id="tx-email" maxlength="100">
+       </div><br>
+       <div>
+            <label class="form-mensagem" for="tx-mensagem"><b>Mensagem:</b></label><br>
+            <textarea name="mensagem" id="tx-mensagem" rows="5" cols="30"></textarea>
+        </div>
+        <br>
+        </div>
+            <button type="submit">Enviar Mensagem</button> 
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+    </main>
+    <footer>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 250, 253);
+    font-size: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav p {
+    color: black;
+}
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #B3E0FF;
+    height: 8vh;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.inicio {
+    text-align: center;
+    font-size: 20px;
+}
+.inicio p {
+    font-size: 18px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    padding: 100px;
+}
+
+form {
+    color: black;
+    margin-right:5px;
+    text-align: center;
+    font-size: 30px;
+}
+main {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+
+#tx-usuario {
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    background-color: azure;
+}
+#tx-email {
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    background-color: azure;
+}
+
+#tx-mensagem {
+    width: 500px;
+    background-color: azure;
+}
+
